@@ -3,19 +3,19 @@ This starter code corresponds to the text and videos in the **Build a Minesweepe
 
 ## Flask Setup
 After cloning this repo, users will need to create a virtual environment, activate it, and then install Flask. Use a command line interface to navigate into the project folder,
-then enter the following commands. (Be sure to replace `environment_name` with a name of your choice).
+then enter the following commands.
 
 *Mac*
 ```
-python3 -m venv environment_name
-. environment_name/bin/activate
+python3 -m venv game-env
+. game-env/bin/activate
 pip3 install Flask
 ```
 
 *Windows (GitBash)*
 ```
-py -3 -m venv environment_name
-. enviromnent_name/Scripts/activate
+py -3 -m venv game-env
+. game-env/Scripts/activate
 pip install Flask
 ```
 
